@@ -46,7 +46,7 @@ const CartModal = () => {
             {/* ITEM */}
             <div className=" flex gap-4 ">
               <Image
-                src="https://images.pexels.com/photos/2333857/pexels-photo-2333857.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://images.pexels.com/photos/1207918/pexels-photo-1207918.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="cartProduct"
                 width={72}
                 height={96}
@@ -57,15 +57,15 @@ const CartModal = () => {
                 <div className="">
                   {/* TITLE */}
                   <div className="flex items-center justify-between gap-8">
-                    <h3 className="font-semibold">Ice Cream</h3>
-                    <div className="p-1 bg-gray-50">$49.99</div>
+                    <h3 className="font-semibold">Coffee Mug</h3>
+                    <div className="p-1 bg-gray-50">$29.99</div>
                   </div>
                   {/* DESC */}
                   <div className="text-sm text-gray-500">available</div>
                 </div>
                 {/* BOTTOM */}
                 <div className="flex justify-between text-sm ">
-                  <span className="text-gray-500">Qty. 2</span>
+                  <span className="text-gray-500">Qty. 1</span>
                   <span className="text-blue-500">Remove</span>
                 </div>
               </div>
@@ -75,7 +75,7 @@ const CartModal = () => {
           <div className="">
             <div className="flex items-center justify-between font-semibold">
               <span className="">Subtotal</span>
-              <span className="">$49.99</span>
+              <span className="">$79.98</span>
             </div>
             <p className="text-sm text-gray-500 mt-2 mb-4">
               Shipping and taxes calculated at checkout.
