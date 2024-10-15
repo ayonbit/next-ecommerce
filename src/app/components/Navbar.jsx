@@ -1,7 +1,7 @@
 //Dependencies
 import Image from "next/image";
 import Link from "next/link";
-import Menu from "./MEnu";
+import Menu from "./Menu";
 import NavbarIcons from "./NavbarIcons";
 import SearchBar from "./SearchBar";
 //Navbar
