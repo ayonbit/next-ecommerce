@@ -40,7 +40,7 @@ const Filter = () => {
           className="py-2 px-4 rounded-2xl text-xs font-medium bg-[#EBEDED]"
         >
           <option>Category</option>
-          <option value="newarrival">New Arrival</option>
+          <option value="newArrival">New Arrival</option>
           <option value="popular">Popular</option>
         </select>
         <select
